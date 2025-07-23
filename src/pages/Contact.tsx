@@ -160,21 +160,21 @@ const Contact = () => {
                       <Mail className="h-5 w-5 text-primary mr-4" />
                       <div>
                         <p className="font-medium">Email</p>
-                        <p className="text-muted-foreground">hello@sarahchen.photography</p>
+                        <p className="text-muted-foreground">ajchuang18@gmail.com</p>
                       </div>
                     </div>
                     <div className="flex items-center">
                       <Phone className="h-5 w-5 text-primary mr-4" />
                       <div>
                         <p className="font-medium">Phone</p>
-                        <p className="text-muted-foreground">(555) 123-4567</p>
+                        <p className="text-muted-foreground">(+66)65060816</p>
                       </div>
                     </div>
                     <div className="flex items-center">
                       <MapPin className="h-5 w-5 text-primary mr-4" />
                       <div>
                         <p className="font-medium">Location</p>
-                        <p className="text-muted-foreground">San Francisco Bay Area</p>
+                        <p className="text-muted-foreground">Bangkok, Thailand</p>
                       </div>
                     </div>
                   </div>

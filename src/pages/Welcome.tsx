@@ -25,7 +25,7 @@ const Welcome = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <h1 className="text-5xl md:text-7xl font-light text-white mb-4 tracking-wide">
-            Sarah Chen
+            Aaron Huang
           </h1>
           <p className="text-xl md:text-2xl text-white/90 font-light">
             Capturing life's most precious moments

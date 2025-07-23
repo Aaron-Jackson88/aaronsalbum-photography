@@ -32,7 +32,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/home" className="text-2xl font-light text-primary">
-            Sarah Chen
+            Aaron Huang
           </Link>
 
           {/* Desktop Navigation */}

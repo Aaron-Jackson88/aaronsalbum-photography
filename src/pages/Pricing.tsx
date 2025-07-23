@@ -8,7 +8,7 @@ const Pricing = () => {
   const packages = [
     {
       name: "Essential",
-      price: "2815.75 THB",
+      price: "2800 THB",
       duration: "1 hour",
       locations: "1 location",
       edits: "15 edited photos",
@@ -24,7 +24,7 @@ const Pricing = () => {
     },
     {
       name: "Premium",
-      price: "4424.75 THB",
+      price: "4400 THB",
       duration: "2 hours",
       locations: "2 locations",
       edits: "30 edited photos",
@@ -42,7 +42,7 @@ const Pricing = () => {
     },
     {
       name: "Graduation Mini",
-      price: "2011.25 THB",
+      price: "2000 THB",
       duration: "30 minutes",
       locations: "1 location",
       edits: "10 edited photos",
@@ -59,7 +59,7 @@ const Pricing = () => {
     },
     {
       name: "Event Coverage",
-      price: "1206.75 THB/hour",
+      price: "1200 THB/hour",
       duration: "Minimum 2 hours",
       locations: "Event venue",
       edits: "50+ edited photos",
@@ -78,12 +78,12 @@ const Pricing = () => {
   ];
 
   const addOns = [
-    { name: "Additional edited photos", price: "120.68 THB each" },
-    { name: "Rush delivery (24-48 hours)", price: "804.5 THB" },
-    { name: "Second photographer", price: "1609 THB" },
-    { name: "Extended session (+1 hour)", price: "1206.75 THB" },
-    { name: "Professional hair & makeup", price: "1609 THB" },
-    { name: "Travel beyond 30 miles", price: "8.05 THB per mile" },
+    { name: "Additional edited photos", price: "100 THB each" },
+    { name: "Rush delivery (24-48 hours)", price: "800 THB" },
+    { name: "Second photographer", price: "1600 THB" },
+    { name: "Extended session (+1 hour)", price: "1200 THB" },
+    { name: "Professional hair & makeup", price: "1600 THB" },
+    { name: "Travel beyond 30 miles", price: "10 THB per mile" },
   ];
 
   return (
