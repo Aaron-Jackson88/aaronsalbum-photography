@@ -6,8 +6,7 @@ import Lightbox from "@/components/Lightbox";
 
 // Import all images explicitly
 import portrait1 from "@/assets/Photos/portraits/Vondervic soft 4.jpg";
-import portrait2 from "@/assets/Photos/portraits/Vondervic soft book 1.jpg";
-import portrait3 from "@/assets/Photos/portraits/Vondervic soft book 3.jpg";
+
 import portrait4 from "@/assets/Photos/portraits/Vondervic soft 1.jpg";
 import portrait5 from "@/assets/Photos/portraits/Vondervic soft 10.jpg";
 import portrait6 from "@/assets/Photos/portraits/Vondervic soft 12.jpg";
@@ -105,7 +104,7 @@ const Gallery = () => {
   const galleryImages = {
     portraits: [
       { src: portrait1, alt: "Portrait 1" },
-      { src: portrait2, alt: "Portrait 2" },
+      
       { src: portrait3, alt: "Portrait 3" },
       { src: portrait4, alt: "Portrait 4" },
       { src: portrait5, alt: "Portrait 5" },
