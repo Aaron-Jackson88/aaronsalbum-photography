@@ -1,13 +1,14 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import versoImage from "@/assets/Photos/Events/VERSO x Future School Festival 2024 439.jpg";
 
 const Welcome = () => {
   return (
     <div className="min-h-screen flex items-center justify-center relative overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=1920&h=1080&fit=crop"
+                    src={versoImage}
           alt="Photography Background"
           className="w-full h-full object-cover"
         />

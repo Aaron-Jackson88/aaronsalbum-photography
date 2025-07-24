@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import { Star } from "lucide-react";
+import profilePic from "@/assets/Photos/Profile Pic/S__10739717.jpg";
 
 const About = () => {
   const testimonials = [
@@ -22,18 +23,6 @@ const About = () => {
       content: "Working with Aaron Huang was an absolute pleasure. She has a gift for capturing authentic moments and genuine smiles. Our family photos are treasures we'll keep forever.",
       rating: 5,
     },
-    {
-      name: "David Martinez",
-      role: "Corporate Event",
-      content: "Aaron Huang's professionalism and talent shine through in every shot. She documented our corporate event beautifully while being unobtrusive and efficient.",
-      rating: 5,
-    },
-    {
-      name: "Lisa Wang",
-      role: "Portrait Session",
-      content: "I've never felt more confident in front of a camera. Aaron Huang's direction and encouragement brought out the best in me, and the photos are absolutely stunning.",
-      rating: 5,
-    },
   ];
 
   return (
@@ -52,7 +41,7 @@ const About = () => {
               >
                 <div className="relative">
                   <img
-                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&h=800&fit=crop"
+                    src={profilePic}
                     alt="Aaron Huang Chen - Photographer"
                     className="w-full max-w-md mx-auto rounded-lg elegant-shadow"
                   />
