@@ -24,13 +24,13 @@ const Pricing = () => {
     },
     {
       name: "Premium",
-      price: "4400 THB",
-      duration: "2 hours",
-      locations: "2 locations",
+      price: "4500 THB",
+      duration: "3 hours",
+      locations: "4 locations",
       edits: "30 edited photos",
       delivery: "5-7 business days",
       features: [
-        "2 hour photo session",
+        "3 hour photo session",
         "30 professionally edited high-resolution photos",
         "Online gallery for download and sharing",
         "Print release included",
@@ -43,12 +43,12 @@ const Pricing = () => {
     {
       name: "Graduation Mini",
       price: "2000 THB",
-      duration: "30 minutes",
+      duration: "1 hour",
       locations: "1 location",
       edits: "10 edited photos",
       delivery: "2-3 business days",
       features: [
-        "30 minute graduation session",
+        "1 hour graduation session",
         "10 professionally edited high-resolution photos",
         "Cap and gown styling guidance",
         "Family group shots included",
@@ -80,10 +80,8 @@ const Pricing = () => {
   const addOns = [
     { name: "Additional edited photos", price: "100 THB each" },
     { name: "Rush delivery (24-48 hours)", price: "800 THB" },
-    { name: "Second photographer", price: "1600 THB" },
+    { name: "Second photographer", price: "2000 THB" },
     { name: "Extended session (+1 hour)", price: "1200 THB" },
-    { name: "Professional hair & makeup", price: "1600 THB" },
-    { name: "Travel beyond 30 miles", price: "10 THB per mile" },
   ];
 
   return (
