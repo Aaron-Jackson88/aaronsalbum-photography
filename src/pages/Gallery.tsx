@@ -5,15 +5,15 @@ import Navigation from "@/components/Navigation";
 import Lightbox from "@/components/Lightbox";
 
 // Import all images explicitly
-import portrait1 from "@/assets/Photos/portraits/Vondervic soft 4.jpg";
-
-import portrait4 from "@/assets/Photos/portraits/Vondervic soft 1.jpg";
-import portrait5 from "@/assets/Photos/portraits/Vondervic soft 10.jpg";
-import portrait6 from "@/assets/Photos/portraits/Vondervic soft 12.jpg";
-import portrait7 from "@/assets/Photos/portraits/Vondervic soft 3.jpg";
-import portrait8 from "@/assets/Photos/portraits/Vondervic soft 5.jpg";
-import portrait9 from "@/assets/Photos/portraits/Vondervic soft 7.jpg";
-import portrait10 from "@/assets/Photos/portraits/Vondervic soft 8.jpg";
+import portrait1 from "@/assets/Photos/portraits/Vondervic soft 1.jpg";
+import portrait2 from "@/assets/Photos/portraits/Vondervic soft 3.jpg";
+import portrait3 from "@/assets/Photos/portraits/Vondervic soft 4.jpg";
+import portrait4 from "@/assets/Photos/portraits/Vondervic soft 5.jpg";
+import portrait5 from "@/assets/Photos/portraits/Vondervic soft 7.jpg";
+import portrait6 from "@/assets/Photos/portraits/Vondervic soft 8.jpg";
+import portrait7 from "@/assets/Photos/portraits/Vondervic soft 10.jpg";
+import portrait8 from "@/assets/Photos/Portraits/Vondervic soft 12.jpg";
+import portrait9 from "@/assets/Photos/Portraits/Vondervic soft book 3.jpg";
 
 import event1 from "@/assets/Photos/events/Park Hiyatt Event 259.jpg";
 import event2 from "@/assets/Photos/events/Park Hiyatt Event 125.jpg";
@@ -104,7 +104,7 @@ const Gallery = () => {
   const galleryImages = {
     portraits: [
       { src: portrait1, alt: "Portrait 1" },
-      
+      { src: portrait2, alt: "Portrait 2" },
       { src: portrait3, alt: "Portrait 3" },
       { src: portrait4, alt: "Portrait 4" },
       { src: portrait5, alt: "Portrait 5" },
@@ -112,7 +112,6 @@ const Gallery = () => {
       { src: portrait7, alt: "Portrait 7" },
       { src: portrait8, alt: "Portrait 8" },
       { src: portrait9, alt: "Portrait 9" },
-      { src: portrait10, alt: "Portrait 10" },
     ],
     events: [
       { src: event1, alt: "Event 1" },
