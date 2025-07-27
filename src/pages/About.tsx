@@ -6,21 +6,15 @@ import profilePic from "@/assets/Photos/Profile Pic/S__10739717.jpg";
 const About = () => {
   const testimonials = [
     {
-      name: "Emily Johnson",
-      role: "Bride",
-      content: "Aaron Huang captured our wedding day perfectly! Every photo tells a story and brings back all the emotions we felt. Her eye for detail and natural moments is incredible.",
+      name: "Palinee (Benny) Bumrung",
+      role: "Event Organizer @ Reactor School",
+      content: "Aaron has an exceptional talent for capturing the mood and tone of the Future School Learning Festival with precision and creativity. His professionalism is evident in every step, from the initial briefing to the final deliverables, consistently providing high-quality work within the agreed timeline. Highly recommended!",
       rating: 5,
     },
     {
-      name: "Michael Chen",
-      role: "Graduate",
-      content: "The graduation photos exceeded all my expectations. Aaron Huang made me feel comfortable and confident, and the final images truly capture this milestone in my life.",
-      rating: 5,
-    },
-    {
-      name: "Rachel Thompson",
-      role: "Family Portrait Client",
-      content: "Working with Aaron Huang was an absolute pleasure. She has a gift for capturing authentic moments and genuine smiles. Our family photos are treasures we'll keep forever.",
+      name: "Vuth Layheang",
+      role: "TIC President 2024-2025",
+      content: "I appreciate the creativity and effort Aaron puts into TIC video content, as it feels engaging and seamlessly transitions between scenes. His photos capture important moments and show the participants’ enjoyment during the event.",
       rating: 5,
     },
   ];
@@ -134,7 +128,7 @@ const About = () => {
               </p>
             </motion.div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 flex items-center justify-center">
               {testimonials.map((testimonial, index) => (
                 <motion.div
                   key={index}
