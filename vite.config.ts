@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => ({
   // If your GitHub Pages URL is like https://<username>.github.io/<repository-name>/
   // then base should be '/<repository-name>/'
   // If it's a custom domain or user/org page (https://<username>.github.io/), then base can be '/'
-  base: mode === 'production' ? '/golden-hour-showcase/' : '/', // <--- Adjust 'your-repository-name'
+  base: mode === 'production' ? '/' : '/', // <--- Adjust 'your-repository-name'
   
   server: {
     host: "::",
