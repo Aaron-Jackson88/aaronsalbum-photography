@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import versoImage from "@/assets/Photos/Events/VERSO x Future School Festival 2024 513.jpg";
+import versoImage from "/Photos/Events/VERSO x Future School Festival 2024 513.jpg";
 
 const Welcome = () => {
   return (

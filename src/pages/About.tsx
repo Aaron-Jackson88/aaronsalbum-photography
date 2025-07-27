@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import { Star } from "lucide-react";
-import profilePic from "@/assets/Photos/Profile Pic/S__10739717.jpg";
+import profilePic from "/Photos/Profile Pic/S__10739717.jpg";
 
 const About = () => {
   const testimonials = [

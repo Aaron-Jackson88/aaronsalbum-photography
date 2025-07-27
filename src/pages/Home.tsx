@@ -9,25 +9,25 @@ const Home = () => {
     {
       title: "Portraits",
       description: "Intimate and expressive portrait photography",
-      image: "src/assets/Photos/Portraits/Vondervic soft 4.jpg",
+      image: "/Photos/Portraits/IMG_8106.jpg",
       path: "/gallery/portraits"
     },
     {
       title: "Events",
       description: "Capturing the magic of your special occasions",
-      image: "src/assets/Photos/Events/Park Hiyatt Event 259.jpg",
+      image: "/Photos/Events/Park Hiyatt Event 192.jpg",
       path: "/gallery/events"
     },
     {
       title: "Editorial",
       description: "Creative storytelling through visual narratives",
-      image: "src/assets/Photos/Editorial/Natural light shots 3.jpg",
+      image: "/Photos/Editorial/IMG_4266.jpg",
       path: "/gallery/editorial"
     },
     {
       title: "Graduations",
       description: "Celebrating your academic achievements",
-      image: "src/assets/Photos/Graduations/IMG_1862.jpg",
+      image: "/Photos/Graduations/Cloudy Sky.jpg",
       path: "/gallery/graduations"
     }
   ];
@@ -40,7 +40,7 @@ const Home = () => {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="src/assets/Photos/Events/VERSO x Future School Festival 2024 490.jpg"
+            src="/Photos/Events/VERSO x Future School Festival 2024 490.jpg"
             alt="Aaron Huang Photography Hero"
             className="w-full h-full object-cover"
           />
