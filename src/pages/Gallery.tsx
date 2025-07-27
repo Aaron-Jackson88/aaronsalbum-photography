@@ -5,95 +5,104 @@ import Navigation from "@/components/Navigation";
 import Lightbox from "@/components/Lightbox";
 
 // Import all images explicitly
-import portrait1 from "@/assets/Photos/Portraits/Vondervic soft 1.jpg";
-import portrait2 from "@/assets/Photos/Portraits/Vondervic soft 3.jpg";
-import portrait3 from "@/assets/Photos/Portraits/Vondervic soft 4.jpg";
-import portrait4 from "@/assets/Photos/Portraits/Vondervic soft 5.jpg";
-import portrait5 from "@/assets/Photos/Portraits/Vondervic soft 7.jpg";
-import portrait6 from "@/assets/Photos/Portraits/Vondervic soft 8.jpg";
-import portrait7 from "@/assets/Photos/Portraits/Vondervic soft 10.jpg";
-import portrait8 from "@/assets/Photos/Portraits/Vondervic soft 12.jpg";
-import portrait9 from "@/assets/Photos/Portraits/Vondervic soft book 3.jpg";
+import editorial1 from "@/assets/Photos/Editorial/IMG_4379.jpg";
+import editorial2 from "@/assets/Photos/Editorial/IMG_4383.jpg";
+import editorial3 from "@/assets/Photos/Editorial/IMG_4354.jpg";
+import editorial4 from "@/assets/Photos/Editorial/IMG_4358.jpg";
+import editorial5 from "@/assets/Photos/Editorial/IMG_4338.jpg";
+import editorial6 from "@/assets/Photos/Editorial/IMG_4314.jpg";
+import editorial7 from "@/assets/Photos/Editorial/IMG_4266.jpg";
+import editorial8 from "@/assets/Photos/Editorial/IMG_4289.jpg";
+import editorial9 from "@/assets/Photos/Editorial/Green Fein 11.jpg";
+import editorial10 from "@/assets/Photos/Editorial/Green Fein 14.jpg";
+import editorial11 from "@/assets/Photos/Editorial/Green Fein 13.jpg";
+import editorial12 from "@/assets/Photos/Editorial/Green Fein 8.jpg";
+import editorial13 from "@/assets/Photos/Editorial/Green Fein 5.jpg";
+import editorial14 from "@/assets/Photos/Editorial/Natural light shots 6.jpg";
+import editorial15 from "@/assets/Photos/Editorial/Green Fein sideway 1.jpg";
+import editorial16 from "@/assets/Photos/Editorial/Stare.jpg";
+import editorial17 from "@/assets/Photos/Editorial/Blue light 3.jpg";
+import editorial18 from "@/assets/Photos/Editorial/Natural light shots 3.jpg";
+import editorial19 from "@/assets/Photos/Editorial/Blue light 4.jpg";
+import editorial20 from "@/assets/Photos/Editorial/Blue light 5.jpg";
 
-import event1 from "@/assets/Photos/events/Park Hiyatt Event 259.jpg";
-import event2 from "@/assets/Photos/events/Park Hiyatt Event 125.jpg";
-import event3 from "@/assets/Photos/events/Park Hiyatt Event 155.jpg";
-import event4 from "@/assets/Photos/events/Park Hiyatt Event 181.jpg";
-import event5 from "@/assets/Photos/events/Park Hiyatt Event 192.jpg";
-import event6 from "@/assets/Photos/events/Park Hiyatt Event 27.jpg";
-import event7 from "@/assets/Photos/events/Park Hiyatt Event 274.jpg";
-import event8 from "@/assets/Photos/events/Park Hiyatt Event 284.jpg";
-import event9 from "@/assets/Photos/events/Park Hiyatt Event 293.jpg";
-import event10 from "@/assets/Photos/events/Park Hiyatt 23.jpg";
-import event11 from "@/assets/Photos/events/Park Hiyatt 41.jpg";
-import event12 from "@/assets/Photos/events/Park Hiyatt 45.jpg";
-import event13 from "@/assets/Photos/events/Park Hiyatt 54.jpg";
-import event14 from "@/assets/Photos/events/Park Hiyatt 88.jpg";
-import event15 from "@/assets/Photos/events/Park Hiyatt 9.jpg";
-import event16 from "@/assets/Photos/events/TIC First Meet 118.jpg";
-import event17 from "@/assets/Photos/events/TIC First Meet 123.jpg";
-import event18 from "@/assets/Photos/events/TIC First Meet 15.jpg";
-import event19 from "@/assets/Photos/events/TIC First Meet 151.jpg";
-import event20 from "@/assets/Photos/events/TIC First Meet 186.jpg";
-import event21 from "@/assets/Photos/events/TIC First Meet 23.jpg";
-import event22 from "@/assets/Photos/events/TIC First Meet 25.jpg";
-import event23 from "@/assets/Photos/events/TIC First Meet 36.jpg";
-import event24 from "@/assets/Photos/events/TIC First Meet 37.jpg";
-import event25 from "@/assets/Photos/events/TIC First Meet 42.jpg";
-import event26 from "@/assets/Photos/events/TIC First Meet 46.jpg";
-import event27 from "@/assets/Photos/events/TIC First Meet 47.jpg";
-import event28 from "@/assets/Photos/events/TIC First Meet 52.jpg";
-import event29 from "@/assets/Photos/events/TIC First Meet 96.jpg";
-import event30 from "@/assets/Photos/events/VERSO x Future School Festival 2024 392.jpg";
-import event31 from "@/assets/Photos/events/VERSO x Future School Festival 2024 403.jpg";
-import event32 from "@/assets/Photos/events/VERSO x Future School Festival 2024 408.jpg";
-import event33 from "@/assets/Photos/events/VERSO x Future School Festival 2024 413.jpg";
-import event34 from "@/assets/Photos/events/VERSO x Future School Festival 2024 426.jpg";
-import event35 from "@/assets/Photos/events/VERSO x Future School Festival 2024 439.jpg";
-import event36 from "@/assets/Photos/events/VERSO x Future School Festival 2024 441.jpg";
-import event37 from "@/assets/Photos/events/VERSO x Future School Festival 2024 463.jpg";
-import event38 from "@/assets/Photos/events/VERSO x Future School Festival 2024 468.jpg";
-import event39 from "@/assets/Photos/events/VERSO x Future School Festival 2024 472.jpg";
-import event40 from "@/assets/Photos/events/VERSO x Future School Festival 2024 486.jpg";
-import event41 from "@/assets/Photos/events/VERSO x Future School Festival 2024 490.jpg";
-import event42 from "@/assets/Photos/events/VERSO x Future School Festival 2024 492.jpg";
-import event43 from "@/assets/Photos/events/VERSO x Future School Festival 2024 513.jpg";
+import portrait1 from "@/assets/Photos/Portraits/IMG_8116.jpg";
+import portrait2 from "@/assets/Photos/Portraits/IMG_8106.jpg";
+import portrait3 from "@/assets/Photos/Portraits/IMG_8007.jpg";
+import portrait4 from "@/assets/Photos/Portraits/IMG_7977.jpg";
+import portrait5 from "@/assets/Photos/Portraits/IMG_7968.jpg";
+import portrait6 from "@/assets/Photos/Portraits/IMG_7920.jpg";
+import portrait7 from "@/assets/Photos/Portraits/IMG_7919.jpg";
+import portrait8 from "@/assets/Photos/Portraits/IMG_7884.jpg";
+import portrait9 from "@/assets/Photos/Portraits/IMG_7831.jpg";
+import portrait10 from "@/assets/Photos/Portraits/IMG_7829.jpg";
+import portrait11 from "@/assets/Photos/Portraits/IMG_7818.jpg";
+import portrait12 from "@/assets/Photos/Portraits/Vondervic soft 12.jpg";
+import portrait13 from "@/assets/Photos/Portraits/Vondervic soft 8.jpg";
+import portrait14 from "@/assets/Photos/Portraits/Vondervic soft 10.jpg";
+import portrait15 from "@/assets/Photos/Portraits/Vondervic soft book 3.jpg";
+import portrait16 from "@/assets/Photos/Portraits/Vondervic soft 7.jpg";
+import portrait17 from "@/assets/Photos/Portraits/Vondervic soft 5.jpg";
+import portrait18 from "@/assets/Photos/Portraits/Vondervic soft 4.jpg";
+import portrait19 from "@/assets/Photos/Portraits/Vondervic soft 1.jpg";
+import portrait20 from "@/assets/Photos/Portraits/Vondervic soft 3.jpg";
 
-import editorial1 from "@/assets/Photos/editorial/Natural light shots 3.jpg";
-import editorial2 from "@/assets/Photos/editorial/Blue light 3.jpg";
-import editorial3 from "@/assets/Photos/editorial/Blue light 4.jpg";
-import editorial4 from "@/assets/Photos/editorial/Blue light 5.jpg";
-import editorial5 from "@/assets/Photos/editorial/Green Fein sideway 1.jpg";
-import editorial6 from "@/assets/Photos/editorial/Green Fein 11.jpg";
-import editorial7 from "@/assets/Photos/editorial/Green Fein 13.jpg";
-import editorial8 from "@/assets/Photos/editorial/Green Fein 14.jpg";
-import editorial9 from "@/assets/Photos/editorial/Green Fein 5.jpg";
-import editorial10 from "@/assets/Photos/editorial/Green Fein 8.jpg";
-import editorial11 from "@/assets/Photos/editorial/Natural light shots 6.jpg";
-import editorial12 from "@/assets/Photos/editorial/Stare.jpg";
+import event1 from "@/assets/Photos/Events/VERSO x Future School Festival 2024 513.jpg";
+import event2 from "@/assets/Photos/Events/VERSO x Future School Festival 2024 492.jpg";
+import event3 from "@/assets/Photos/Events/VERSO x Future School Festival 2024 490.jpg";
+import event4 from "@/assets/Photos/Events/VERSO x Future School Festival 2024 441.jpg";
+import event5 from "@/assets/Photos/Events/VERSO x Future School Festival 2024 408.jpg";
+import event6 from "@/assets/Photos/Events/VERSO x Future School Festival 2024 403.jpg";
+import event7 from "@/assets/Photos/Events/VERSO x Future School Festival 2024 426.jpg";
+import event8 from "@/assets/Photos/Events/Park Hiyatt 88.jpg";
+import event9 from "@/assets/Photos/Events/Park Hiyatt 41.jpg";
+import event10 from "@/assets/Photos/Events/Park Hiyatt 45.jpg";
+import event11 from "@/assets/Photos/Events/Park Hiyatt 23.jpg";
+import event12 from "@/assets/Photos/Events/Park Hiyatt 9.jpg";
+import event13 from "@/assets/Photos/Events/Park Hiyatt Event 284.jpg";
+import event14 from "@/assets/Photos/Events/Park Hiyatt Event 293.jpg";
+import event15 from "@/assets/Photos/Events/Park Hiyatt Event 259.jpg";
+import event16 from "@/assets/Photos/Events/Park Hiyatt Event 192.jpg";
+import event17 from "@/assets/Photos/Events/Park Hiyatt Event 181.jpg";
+import event18 from "@/assets/Photos/Events/Park Hiyatt Event 155.jpg";
+import event19 from "@/assets/Photos/Events/Park Hiyatt Event 125.jpg";
+import event20 from "@/assets/Photos/Events/Park Hiyatt Event 27.jpg";
+import event21 from "@/assets/Photos/Events/TIC First Meet 151.jpg";
+import event22 from "@/assets/Photos/Events/TIC First Meet 186.jpg";
+import event23 from "@/assets/Photos/Events/TIC First Meet 123.jpg";
+import event24 from "@/assets/Photos/Events/TIC First Meet 96.jpg";
+import event25 from "@/assets/Photos/Events/TIC First Meet 118.jpg";
+import event26 from "@/assets/Photos/Events/TIC First Meet 42.jpg";
+import event27 from "@/assets/Photos/Events/TIC First Meet 46.jpg";
+import event28 from "@/assets/Photos/Events/TIC First Meet 23.jpg";
+import event29 from "@/assets/Photos/Events/TIC First Meet 25.jpg";
+import event30 from "@/assets/Photos/Events/TIC First Meet 15.jpg";
+import event31 from "@/assets/Photos/Events/TIC First Meet 36.jpg";
 
-import graduation1 from "@/assets/Photos/graduations/IMG_1862.jpg";
-import graduation2 from "@/assets/Photos/graduations/IMG_0655.jpg";
-import graduation3 from "@/assets/Photos/graduations/IMG_0665.jpg";
-import graduation4 from "@/assets/Photos/graduations/IMG_0694 Enhanced NR.jpg";
-import graduation5 from "@/assets/Photos/graduations/IMG_1220.jpg";
-import graduation6 from "@/assets/Photos/graduations/IMG_1734.jpg";
-import graduation7 from "@/assets/Photos/graduations/IMG_2329.jpg";
-import graduation8 from "@/assets/Photos/graduations/IMG_2918.jpg";
-import graduation9 from "@/assets/Photos/graduations/IMG_3125.jpg";
-import graduation10 from "@/assets/Photos/graduations/IMG_3213.jpg";
-import graduation11 from "@/assets/Photos/graduations/IMG_3253.jpg";
-import graduation12 from "@/assets/Photos/graduations/IMG_4496.jpg";
-import graduation13 from "@/assets/Photos/graduations/IMG_4552.jpg";
-import graduation14 from "@/assets/Photos/graduations/IMG_4718.jpg";
-import graduation15 from "@/assets/Photos/graduations/IMG_4785.jpg";
-import graduation16 from "@/assets/Photos/graduations/IMG_4820.jpg";
-import graduation17 from "@/assets/Photos/graduations/IMG_4922 Enhanced NR.jpg";
-import graduation18 from "@/assets/Photos/graduations/IMG_4969 Enhanced NR.jpg";
-import graduation19 from "@/assets/Photos/graduations/IMG_7523.jpg";
-import graduation20 from "@/assets/Photos/graduations/IMG_7548.jpg";
-import graduation21 from "@/assets/Photos/graduations/IMG_7632.jpg";
-import graduation22 from "@/assets/Photos/graduations/IMG_7775 Enhanced NR.jpg";
+import graduation1 from "@/assets/Photos/Graduations/Cloudy Sky.jpg";
+import graduation2 from "@/assets/Photos/Graduations/IMG_7632.jpg";
+import graduation4 from "@/assets/Photos/Graduations/IMG_7548.jpg";
+import graduation6 from "@/assets/Photos/Graduations/IMG_4922 Enhanced NR.jpg";
+import graduation7 from "@/assets/Photos/Graduations/IMG_4969 Enhanced NR.jpg";
+import graduation8 from "@/assets/Photos/Graduations/IMG_4785.jpg";
+import graduation9 from "@/assets/Photos/Graduations/IMG_4820.jpg";
+import graduation10 from "@/assets/Photos/Graduations/IMG_4552.jpg";
+import graduation11 from "@/assets/Photos/Graduations/IMG_4496.jpg";
+import graduation12 from "@/assets/Photos/Graduations/IMG_4718.jpg";
+import graduation13 from "@/assets/Photos/Graduations/IMG_3253.jpg";
+import graduation14 from "@/assets/Photos/Graduations/IMG_3213.jpg";
+import graduation15 from "@/assets/Photos/Graduations/IMG_2918.jpg";
+import graduation16 from "@/assets/Photos/Graduations/IMG_3125.jpg";
+import graduation17 from "@/assets/Photos/Graduations/IMG_2329.jpg";
+import graduation18 from "@/assets/Photos/Graduations/IMG_1734.jpg";
+import graduation19 from "@/assets/Photos/Graduations/IMG_1862.jpg";
+import graduation20 from "@/assets/Photos/Graduations/IMG_1220.jpg";
+import graduation21 from "@/assets/Photos/Graduations/IMG_0694 Enhanced NR.jpg";
+import graduation22 from "@/assets/Photos/Graduations/IMG_0655.jpg";
+import graduation23 from "@/assets/Photos/Graduations/IMG_0665.jpg";
+
+import profilePic1 from "@/assets/Photos/Profile Pic/S__10739717.jpg";
+import profilePic2 from "@/assets/Photos/Profile Pic/S__10739715.jpg";
 
 const Gallery = () => {
   const { category } = useParams<{ category: string }>();
@@ -102,114 +111,126 @@ const Gallery = () => {
 
   // Sample images for each category
   const galleryImages = {
+    editorial: [
+      { src: editorial1, alt: "IMG_4379.jpg" },
+      { src: editorial2, alt: "IMG_4383.jpg" },
+      { src: editorial3, alt: "IMG_4354.jpg" },
+      { src: editorial4, alt: "IMG_4358.jpg" },
+      { src: editorial5, alt: "IMG_4338.jpg" },
+      { src: editorial6, alt: "IMG_4314.jpg" },
+      { src: editorial7, alt: "IMG_4266.jpg" },
+      { src: editorial8, alt: "IMG_4289.jpg" },
+      { src: editorial9, alt: "Green Fein 11.jpg" },
+      { src: editorial10, alt: "Green Fein 14.jpg" },
+      { src: editorial11, alt: "Green Fein 13.jpg" },
+      { src: editorial12, alt: "Green Fein 8.jpg" },
+      { src: editorial13, alt: "Green Fein 5.jpg" },
+      { src: editorial14, alt: "Natural light shots 6.jpg" },
+      { src: editorial15, alt: "Green Fein sideway 1.jpg" },
+      { src: editorial16, alt: "Stare.jpg" },
+      { src: editorial17, alt: "Blue light 3.jpg" },
+      { src: editorial18, alt: "Natural light shots 3.jpg" },
+      { src: editorial19, alt: "Blue light 4.jpg" },
+      { src: editorial20, alt: "Blue light 5.jpg" },
+    ],
     portraits: [
-      { src: portrait1, alt: "Portrait 1" },
-      { src: portrait2, alt: "Portrait 2" },
-      { src: portrait3, alt: "Portrait 3" },
-      { src: portrait4, alt: "Portrait 4" },
-      { src: portrait5, alt: "Portrait 5" },
-      { src: portrait6, alt: "Portrait 6" },
-      { src: portrait7, alt: "Portrait 7" },
-      { src: portrait8, alt: "Portrait 8" },
-      { src: portrait9, alt: "Portrait 9" },
+      { src: portrait1, alt: "IMG_8116.jpg" },
+      { src: portrait2, alt: "IMG_8106.jpg" },
+      { src: portrait3, alt: "IMG_8007.jpg" },
+      { src: portrait4, alt: "IMG_7977.jpg" },
+      { src: portrait5, alt: "IMG_7968.jpg" },
+      { src: portrait6, alt: "IMG_7920.jpg" },
+      { src: portrait7, alt: "IMG_7919.jpg" },
+      { src: portrait8, alt: "IMG_7884.jpg" },
+      { src: portrait9, alt: "IMG_7831.jpg" },
+      { src: portrait10, alt: "IMG_7829.jpg" },
+      { src: portrait11, alt: "IMG_7818.jpg" },
+      { src: portrait12, alt: "Vondervic soft 12.jpg" },
+      { src: portrait13, alt: "Vondervic soft 8.jpg" },
+      { src: portrait14, alt: "Vondervic soft 10.jpg" },
+      { src: portrait15, alt: "Vondervic soft book 3.jpg" },
+      { src: portrait16, alt: "Vondervic soft 7.jpg" },
+      { src: portrait17, alt: "Vondervic soft 5.jpg" },
+      { src: portrait18, alt: "Vondervic soft 4.jpg" },
+      { src: portrait19, alt: "Vondervic soft 1.jpg" },
+      { src: portrait20, alt: "Vondervic soft 3.jpg" },
     ],
     events: [
-      { src: event1, alt: "Event 1" },
-      { src: event2, alt: "Event 2" },
-      { src: event3, alt: "Event 3" },
-      { src: event4, alt: "Event 4" },
-      { src: event5, alt: "Event 5" },
-      { src: event6, alt: "Event 6" },
-      { src: event7, alt: "Event 7" },
-      { src: event8, alt: "Event 8" },
-      { src: event9, alt: "Event 9" },
-      { src: event10, alt: "Event 10" },
-      { src: event11, alt: "Event 11" },
-      { src: event12, alt: "Event 12" },
-      { src: event13, alt: "Event 13" },
-      { src: event14, alt: "Event 14" },
-      { src: event15, alt: "Event 15" },
-      { src: event16, alt: "Event 16" },
-      { src: event17, alt: "Event 17" },
-      { src: event18, alt: "Event 18" },
-      { src: event19, alt: "Event 19" },
-      { src: event20, alt: "Event 20" },
-      { src: event21, alt: "Event 21" },
-      { src: event22, alt: "Event 22" },
-      { src: event23, alt: "Event 23" },
-      { src: event24, alt: "Event 24" },
-      { src: event25, alt: "Event 25" },
-      { src: event26, alt: "Event 26" },
-      { src: event27, alt: "Event 27" },
-      { src: event28, alt: "Event 28" },
-      { src: event29, alt: "Event 29" },
-      { src: event30, alt: "Event 30" },
-      { src: event31, alt: "Event 31" },
-      { src: event32, alt: "Event 32" },
-      { src: event33, alt: "Event 33" },
-      { src: event34, alt: "Event 34" },
-      { src: event35, alt: "Event 35" },
-      { src: event36, alt: "Event 36" },
-      { src: event37, alt: "Event 37" },
-      { src: event38, alt: "Event 38" },
-      { src: event39, alt: "Event 39" },
-      { src: event40, alt: "Event 40" },
-      { src: event41, alt: "Event 41" },
-      { src: event42, alt: "Event 42" },
-      { src: event43, alt: "Event 43" },
-    ],
-    editorial: [
-      { src: editorial1, alt: "Editorial 1" },
-      { src: editorial2, alt: "Editorial 2" },
-      { src: editorial3, alt: "Editorial 3" },
-      { src: editorial4, alt: "Editorial 4" },
-      { src: editorial5, alt: "Editorial 5" },
-      { src: editorial6, alt: "Editorial 6" },
-      { src: editorial7, alt: "Editorial 7" },
-      { src: editorial8, alt: "Editorial 8" },
-      { src: editorial9, alt: "Editorial 9" },
-      { src: editorial10, alt: "Editorial 10" },
-      { src: editorial11, alt: "Editorial 11" },
-      { src: editorial12, alt: "Editorial 12" },
+      { src: event1, alt: "VERSO x Future School Festival 2024 513.jpg" },
+      { src: event2, alt: "VERSO x Future School Festival 2024 492.jpg" },
+      { src: event3, alt: "VERSO x Future School Festival 2024 490.jpg" },
+      { src: event4, alt: "VERSO x Future School Festival 2024 441.jpg" },
+      { src: event5, alt: "VERSO x Future School Festival 2024 408.jpg" },
+      { src: event6, alt: "VERSO x Future School Festival 2024 403.jpg" },
+      { src: event7, alt: "VERSO x Future School Festival 2024 426.jpg" },
+      { src: event8, alt: "Park Hiyatt 88.jpg" },
+      { src: event9, alt: "Park Hiyatt 41.jpg" },
+      { src: event10, alt: "Park Hiyatt 45.jpg" },
+      { src: event11, alt: "Park Hiyatt 23.jpg" },
+      { src: event12, alt: "Park Hiyatt 9.jpg" },
+      { src: event13, alt: "Park Hiyatt Event 284.jpg" },
+      { src: event14, alt: "Park Hiyatt Event 293.jpg" },
+      { src: event15, alt: "Park Hiyatt Event 259.jpg" },
+      { src: event16, alt: "Park Hiyatt Event 192.jpg" },
+      { src: event17, alt: "Park Hiyatt Event 181.jpg" },
+      { src: event18, alt: "Park Hiyatt Event 155.jpg" },
+      { src: event19, alt: "Park Hiyatt Event 125.jpg" },
+      { src: event20, alt: "Park Hiyatt Event 27.jpg" },
+      { src: event21, alt: "TIC First Meet 151.jpg" },
+      { src: event22, alt: "TIC First Meet 186.jpg" },
+      { src: event23, alt: "TIC First Meet 123.jpg" },
+      { src: event24, alt: "TIC First Meet 96.jpg" },
+      { src: event25, alt: "TIC First Meet 118.jpg" },
+      { src: event26, alt: "TIC First Meet 42.jpg" },
+      { src: event27, alt: "TIC First Meet 46.jpg" },
+      { src: event28, alt: "TIC First Meet 23.jpg" },
+      { src: event29, alt: "TIC First Meet 25.jpg" },
+      { src: event30, alt: "TIC First Meet 15.jpg" },
+      { src: event31, alt: "TIC First Meet 36.jpg" },
     ],
     graduations: [
-      { src: graduation1, alt: "Graduation 1" },
-      { src: graduation2, alt: "Graduation 2" },
-      { src: graduation3, alt: "Graduation 3" },
-      { src: graduation4, alt: "Graduation 4" },
-      { src: graduation5, alt: "Graduation 5" },
-      { src: graduation6, alt: "Graduation 6" },
-      { src: graduation7, alt: "Graduation 7" },
-      { src: graduation8, alt: "Graduation 8" },
-      { src: graduation9, alt: "Graduation 9" },
-      { src: graduation10, alt: "Graduation 10" },
-      { src: graduation11, alt: "Graduation 11" },
-      { src: graduation12, alt: "Graduation 12" },
-      { src: graduation13, alt: "Graduation 13" },
-      { src: graduation14, alt: "Graduation 14" },
-      { src: graduation15, alt: "Graduation 15" },
-      { src: graduation16, alt: "Graduation 16" },
-      { src: graduation17, alt: "Graduation 17" },
-      { src: graduation18, alt: "Graduation 18" },
-      { src: graduation19, alt: "Graduation 19" },
-      { src: graduation20, alt: "Graduation 20" },
-      { src: graduation21, alt: "Graduation 21" },
-      { src: graduation22, alt: "Graduation 22" },
+      { src: graduation1, alt: "Cloudy Sky.jpg" },
+      { src: graduation2, alt: "IMG_7632.jpg" },
+      { src: graduation4, alt: "IMG_7548.jpg" },
+      { src: graduation6, alt: "IMG_4922 Enhanced NR.jpg" },
+      { src: graduation7, alt: "IMG_4969 Enhanced NR.jpg" },
+      { src: graduation8, alt: "IMG_4785.jpg" },
+      { src: graduation9, alt: "IMG_4820.jpg" },
+      { src: graduation10, alt: "IMG_4552.jpg" },
+      { src: graduation11, alt: "IMG_4496.jpg" },
+      { src: graduation12, alt: "IMG_4718.jpg" },
+      { src: graduation13, alt: "IMG_3253.jpg" },
+      { src: graduation14, alt: "IMG_3213.jpg" },
+      { src: graduation15, alt: "IMG_2918.jpg" },
+      { src: graduation16, alt: "IMG_3125.jpg" },
+      { src: graduation17, alt: "IMG_2329.jpg" },
+      { src: graduation18, alt: "IMG_1734.jpg" },
+      { src: graduation19, alt: "IMG_1862.jpg" },
+      { src: graduation20, alt: "IMG_1220.jpg" },
+      { src: graduation21, alt: "IMG_0694 Enhanced NR.jpg" },
+      { src: graduation22, alt: "IMG_0655.jpg" },
+      { src: graduation23, alt: "IMG_0665.jpg" },
+    ],
+    profilePic: [
+      { src: profilePic1, alt: "S__10739717.jpg" },
+      { src: profilePic2, alt: "S__10739715.jpg" },
     ],
   };
 
   const categoryTitles = {
+    editorial: "Editorial Photography",
     portraits: "Portrait Photography",
     events: "Event Photography",
-    editorial: "Editorial Photography",
     graduations: "Graduation Photography",
+    profilePic: "Profile Pictures",
   };
 
   const categoryDescriptions = {
+    editorial: "Creative storytelling through fashion and lifestyle photography",
     portraits: "Intimate portraits that capture the essence and personality of each individual",
     events: "Documenting life's celebrations with candid and heartfelt moments",
-    editorial: "Creative storytelling through fashion and lifestyle photography",
     graduations: "Celebrating academic achievements and milestone moments",
+    profilePic: "Professional and engaging profile pictures for all your needs",
   };
 
   const images = galleryImages[category as keyof typeof galleryImages] || [];
