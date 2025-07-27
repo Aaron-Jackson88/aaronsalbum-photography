@@ -12,6 +12,8 @@ import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
 
+console.log("BASE_URL:", import.meta.env.BASE_URL);
+
 const queryClient = new QueryClient();
 
 const GalleryWrapper = () => {
