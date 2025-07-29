@@ -9,7 +9,7 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "gh-pages -d build --repo https://github.com/Aaron-Jackson88/golden-hour-showcase"
+    "deploy": "gh-pages -d dist --repo https://github.com/Aaron-Jackson88/aaronsalbum-photography"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",

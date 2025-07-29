@@ -26,7 +26,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename="/golden-hour-showcase/">
+      <BrowserRouter basename="/aaronsalbum-photography/">
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Welcome />} />
