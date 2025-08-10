@@ -16,8 +16,6 @@ const Pricing = () => {
       features: [
         "1 hour photo session",
         "15 professionally edited high-resolution photos",
-        "Online gallery for download",
-        "Print release included",
         "Basic retouching"
       ],
       popular: false,
@@ -32,8 +30,6 @@ const Pricing = () => {
       features: [
         "3 hour photo session",
         "30 professionally edited high-resolution photos",
-        "Online gallery for download and sharing",
-        "Print release included",
         "Advanced retouching and color grading",
         "Outfit change consultation",
         "Sneak peek within 24 hours"
@@ -52,14 +48,12 @@ const Pricing = () => {
         "10 professionally edited high-resolution photos",
         "Cap and gown styling guidance",
         "Family group shots included",
-        "Online gallery for sharing",
-        "Print release included"
       ],
       popular: false,
     },
     {
       name: "Event Coverage",
-      price: "1200 THB/hour",
+      price: "1500 THB/hour",
       duration: "Minimum 2 hours",
       locations: "Event venue",
       edits: "50+ edited photos",
@@ -69,11 +63,10 @@ const Pricing = () => {
         "Candid and posed shots",
         "High-resolution edited photos",
         "Online gallery for all attendees",
-        "Print release included",
         "Raw files available upon request",
-        "Travel within 30 miles included"
+        "Travel within 15km included"
       ],
-      popular: false,
+      popular: true,
     },
   ];
 
