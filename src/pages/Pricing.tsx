@@ -72,7 +72,7 @@ const Pricing = () => {
   const addOns = [
     { name: "Additional edited photos", price: "100 THB each" },
     { name: "Rush delivery (24-48 hours)", price: "800 THB" },
-    { name: "Second photographer", price: "Pricier" },
+    { name: "Second photographer", price: "Contact for more info" },
     { name: "Extended session (+1 hour)", price: "1200 THB" },
   ];
 
