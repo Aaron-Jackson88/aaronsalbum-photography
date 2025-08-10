@@ -62,7 +62,6 @@ const Pricing = () => {
         "Professional event documentation",
         "Candid and posed shots",
         "High-resolution edited photos",
-        "Online gallery for all attendees",
         "Raw files available upon request",
         "Travel within 15km included"
       ],
