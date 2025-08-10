@@ -47,7 +47,7 @@ import portrait18 from "/Photos/Portraits/Vondervic soft 4.jpg";
 import portrait19 from "/Photos/Portraits/Vondervic soft 1.jpg";
 import portrait20 from "/Photos/Portraits/Vondervic soft 3.jpg";
 
-import event1 from "/Photos/Events/VERSO x Future School Festival 2024 513.jpg";
+
 import event2 from "/Photos/Events/VERSO x Future School Festival 2024 492.jpg";
 import event3 from "/Photos/Events/VERSO x Future School Festival 2024 490.jpg";
 import event4 from "/Photos/Events/VERSO x Future School Festival 2024 441.jpg";
@@ -156,7 +156,7 @@ const Gallery = () => {
       { src: portrait20, alt: "Vondervic soft 3.jpg" },
     ],
     events: [
-      { src: event1, alt: "VERSO x Future School Festival 2024 513.jpg" },
+      
       { src: event2, alt: "VERSO x Future School Festival 2024 492.jpg" },
       { src: event3, alt: "VERSO x Future School Festival 2024 490.jpg" },
       { src: event4, alt: "VERSO x Future School Festival 2024 441.jpg" },
